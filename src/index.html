@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="awesome-app">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Awesome App</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<% styles.forEach( function ( file ) { %>
+<link rel="stylesheet" type="text/css" href="<%= file %>"/><% }); %>
+</head>
+<body>
+
+<awesome-header
+        awesome-header-title="Awesome App"
+        awesome-header-home-state="home">
+    <li ui-sref-active="active"><a ui-sref="home">Home</a></li>
+    <li ui-sref-active="active"><a ui-sref="about">About</a></li>
+    <li class="dropdown">
+        <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Learn <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="//stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background" target="_blank">Thinking in AngularJS</a></li>
+            <li><a href="//github.com/johnpapa/angularjs-styleguide" target="_blank">AngularJS Style Guide</a></li>
+            <li><a href="//stackoverflow.com/questions/20286917/angularjs-understanding-design-pattern" target="_blank">AngularJS Design Pattern</a></li>
+            <li><a href="//angular-ui.github.io/ui-router/site/" target="_blank">Angular UI Router</a></li>
+            <li><a href="//angular-ui.github.io/bootstrap/" target="_blank">Angular UI Bootstrap</a></li>
+            <li><a href="//andyshora.com/promises-angularjs-explained-as-cartoon.html" target="_blank">Promises in AngularJS</a></li>
+            <li><a href="//www.youtube.com/user/angularjs" target="_blank">Watch</a></li>
+            <li><a href="//docs.angularjs.org/misc/faq" target="_blank">FAQ</a></li>
+        </ul>
+    </li>
+</awesome-header>
+
+<div ui-view class="container"></div>
+
+<awesome-footer>
+    <li><a href="//angular.codeschool.com" target="_blank">AngularJS CodeSchool</a></li>
+</awesome-footer>
+
+<% scripts.forEach( function ( file ) { %>
+<script type="text/javascript" src="<%= file %>"></script><% }); %>
+
+</body>
+</html>
