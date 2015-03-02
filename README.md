@@ -65,7 +65,7 @@ We have preconfigured the project with a simple development web server and [grun
 grunt up
 ```
 
-Now browse to the app at at `http://localhost:8080/`
+Now browse to the app at `http://localhost:8080/`
 
 
 ## Other grunt tasks
