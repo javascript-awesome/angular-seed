@@ -56,7 +56,14 @@ folders in your project.
 
 ### Run the Application
 
-We have preconfigured the project with a simple development web server and [grunt][gruntjs] tasks
+We have preconfigured the project with a simple development web server and [grunt][gruntjs] tasks.
+
+To run grunt tasks you need the Grunt command line interface.
+
+Install this globally and you'll have access to the grunt command anywhere on your system.
+```
+npm install -g grunt-cli
+```
 
 
 ### Starting the app in development mode
