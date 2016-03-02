@@ -1,3 +1,6 @@
+> **IMPORTANT NOTE**: 
+The skeleton was developed long time ago and is compatible with **NodeJS** up to **v0.12.4** that you can download here https://nodejs.org/en/blog/release/v0.12.4/
+
 # angular-seed — the seed for awesome AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
