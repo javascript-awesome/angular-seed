@@ -1,17 +1,16 @@
 'use strict';
 
-describe('awesome-app.home module', function() {
+describe('awesome-app.about module', function() {
+  var $scope = {};
+  beforeEach(module('awesome-app.about'));
 
-    beforeEach(module('awesome-app.home'));
+  describe('about controller', function(){
+    it('should ....', inject(function($controller) {
+      //spec body
+      var aboutCtrl = $controller('AboutCtrl', { $scope: $scope });
+      expect(aboutCtrl).toBeDefined();
+    }));
+  });
 
-    describe('home controller', function(){
-
-        it('should ....', inject(function($controller) {
-            //spec body
-            var homeCtrl = $controller('HomeCtrl');
-            expect(homeCtrl).toBeDefined();
-        }));
-
-    });
 });
 
