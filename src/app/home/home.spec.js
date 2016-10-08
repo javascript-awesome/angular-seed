@@ -1,17 +1,23 @@
 'use strict';
 
 describe('awesome-app.home module', function() {
+  var $scope;
 
-    beforeEach(module('awesome-app.home'));
+  beforeEach(module('awesome-app.home'));
+  beforeEach(module('awesome-app.common.features.abstract-entity'));
+  beforeEach(module('awesome-app.common.features.team-member'));
 
-    describe('home controller', function(){
+  beforeEach(function(){
+    $scope = {};
+  });
 
-        it('should ....', inject(function($controller) {
-            //spec body
-            var homeCtrl = $controller('HomeCtrl');
-            expect(homeCtrl).toBeDefined();
-        }));
+  describe('home controller', function(){
+    it('should ....', inject(function($controller) {
+      //spec body
+      var homeCtrl = $controller('HomeCtrl', { $scope: $scope } );
+      expect(homeCtrl).toBeDefined();
+    }));
+  });
 
-    });
 });
 
