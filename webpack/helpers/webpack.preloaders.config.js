@@ -1,6 +1,6 @@
 module.exports = [
       {
         test: /\.js$/,
-        loader: 'eslint'
+        loader: 'eslint-loader'
       }
 ];

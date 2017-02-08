@@ -25,10 +25,6 @@ module.exports = {
         loader: 'istanbul-instrumenter'
       }
     ]
-  },
-  tslint: {
-        emitErrors: true,
-        failOnHint: true
   }
 };
 
