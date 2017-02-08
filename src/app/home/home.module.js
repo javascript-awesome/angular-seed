@@ -1,3 +1,5 @@
+'use strict';
+
 // dependencies
 import angular from 'angular';
 

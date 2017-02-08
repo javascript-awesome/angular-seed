@@ -1,3 +1,5 @@
+'use strict';
+
 import {TeamMemberModel} from './teamMember.model';
 
 export class TeamMemberCollection {

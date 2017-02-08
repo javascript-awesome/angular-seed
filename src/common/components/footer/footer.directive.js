@@ -1,3 +1,5 @@
+'use strict';
+
 import template from './footer.template.html';
 
 export class FooterDirective {

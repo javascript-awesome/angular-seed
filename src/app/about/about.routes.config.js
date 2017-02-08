@@ -1,3 +1,5 @@
+'use strict';
+
 import template from './about.template.html';
 
 export function routeConfig($stateProvider) {

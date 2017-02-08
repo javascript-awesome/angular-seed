@@ -1,3 +1,5 @@
+ 'use strict';
+ 
  import {TeamMemberModel} from '../../common/features/team-member/teamMember.model';
  import {TeamMemberCollection} from '../../common/features/team-member/teamMember.collection';
  

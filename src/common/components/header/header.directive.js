@@ -1,3 +1,5 @@
+'use strict';
+
 import template from './header.template.html';
 
 export class HeaderDirective {
