@@ -3,7 +3,7 @@
 
         <div class="col-xs-12">
             <h1>Hello Awesome App {{ 'v%VERSION%' | versionInterpolate }}!</h1>
-            <p>My skills are {{teamMember.getSkills()}}</p>
+            <p>My skills are {{teamMember.getSkills().join(', ')}}</p>
         </div>
 
         <div class="col-md-5 col-xs-12">

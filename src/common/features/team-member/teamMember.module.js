@@ -6,7 +6,7 @@ import {TeamMemberCollection} from './teamMember.collection';
 import {TeamMemberService} from './teamMember.service';
 
 angular.module('app.common.features.team-member', [
-])
+    ])
     .factory('TeamMemberModel', TeamMemberModel)
     .factory('TeamMemberCollection', TeamMemberCollection)
     .service('TeamMemberService', TeamMemberService);

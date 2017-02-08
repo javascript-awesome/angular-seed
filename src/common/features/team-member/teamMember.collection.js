@@ -1,3 +1,5 @@
+import {TeamMemberModel} from './teamMember.model';
+
 export class TeamMemberCollection {
     constructor(collectionName) {
         this.collectionName = collectionName;
