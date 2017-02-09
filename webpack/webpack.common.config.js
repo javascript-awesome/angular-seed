@@ -4,6 +4,7 @@ const loaders = require("./helpers/webpack.loaders.config");
 const preloaders = require("./helpers/webpack.preloaders.config");
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: ['./src/app/app.module.js'],
@@ -23,7 +24,11 @@ module.exports = {
             template: './src/index.html',
             inject: 'body',
             hash: true
-        })
+        }),
+        new CopyWebpackPlugin([{
+            from: './src/assets/img/',
+            to: 'assets/img/'
+        }])
     ],
     module:{
         preloaders: preloaders,
