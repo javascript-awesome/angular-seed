@@ -13,5 +13,5 @@ export class HeaderDirective {
         };
     }
 
-    link(scope, element, attrs) { }
-};
+    link() { }
+}

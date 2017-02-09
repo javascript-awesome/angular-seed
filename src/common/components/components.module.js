@@ -1,5 +1,7 @@
 'use strict';
 
+import angular from 'angular';
+
 import './version/version.module';
 
 import {HeaderDirective} from './header/header.directive';

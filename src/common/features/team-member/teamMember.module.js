@@ -1,5 +1,7 @@
 'use strict';
 
+import angular from 'angular';
+
 import {TeamMemberModel} from './teamMember.model';
 import {TeamMemberCollection} from './teamMember.collection';
 // services

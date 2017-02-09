@@ -1,9 +1,9 @@
 'use strict';
 
 export default class AboutController {
-    constructor($scope) {
+    constructor() {
 
     }
-};
+}
 
 AboutController.$inject = [ '$scope' ];

@@ -1,5 +1,7 @@
 'use strict';
 
+import angular from 'angular';
+
 import {VersionDirective} from './version.directive';
 import {versionInterpolate} from './version.filter';
 

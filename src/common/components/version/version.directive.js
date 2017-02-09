@@ -5,7 +5,7 @@ export class VersionDirective {
         this.value = value;
     }
 
-    link(scope, element, attrs) {
+    link(scope, element) {
         element.text(this.value);
     }
-};
+}

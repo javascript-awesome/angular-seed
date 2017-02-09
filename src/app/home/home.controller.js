@@ -12,7 +12,7 @@
 
         $scope.team.addMember($scope.teamMember);
     }
-};
+}
 
 HomeController.$inject = ['$scope'];
 

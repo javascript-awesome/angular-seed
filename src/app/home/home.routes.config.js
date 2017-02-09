@@ -9,4 +9,4 @@ export function routeConfig($stateProvider) {
             controller: 'HomeController',
             template: template
         });
-};
+}

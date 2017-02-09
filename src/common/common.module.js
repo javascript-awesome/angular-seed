@@ -1,5 +1,7 @@
 'use strict';
 
+import angular from 'angular';
+
 import './components/components.module';
 import './features/features.module';
 

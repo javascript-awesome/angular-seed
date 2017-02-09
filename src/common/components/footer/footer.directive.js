@@ -10,5 +10,5 @@ export class FooterDirective {
         this.scope = {};
     }
 
-    link(scope, element, attrs) { }
-};
+    link() { }
+}
