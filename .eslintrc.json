@@ -37,6 +37,7 @@
         "no-delete-var": 1,
         "no-undef": 1,
         "no-unused-vars": 1,
-        "no-mixed-spaces-and-tabs": 1
+        "no-mixed-spaces-and-tabs": 1,        
+        "quotes": [1,"single","avoid-escape"]
     }
 }
