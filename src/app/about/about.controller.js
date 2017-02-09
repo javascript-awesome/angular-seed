@@ -6,4 +6,4 @@ export default class AboutController {
     }
 }
 
-AboutController.$inject = [ '$scope' ];
+AboutController.$inject = [  ];

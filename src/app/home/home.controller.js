@@ -6,6 +6,8 @@
  class HomeController {
 
     constructor($scope) {
+        this.$scope = $scope;
+
         $scope.team = new TeamMemberCollection('DataArt');
 
         $scope.teamMember = new TeamMemberModel('John').addSkills(['JavaScript', 'AngularJS']);
