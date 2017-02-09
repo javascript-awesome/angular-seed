@@ -9,7 +9,7 @@ import uiBootstrap from 'angular-ui-bootstrap';
 import {routesConfig} from './app.routes.config';
 
 // modules
-import "../common/common.module";
+import '../common/common.module';
 import './home/home.module';
 import './about/about.module';
 
